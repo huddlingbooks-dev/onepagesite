@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>허들링북스 - 생각의 폭을 넓히고 더불어 함께 사는 지혜를 담은 책</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Outfit:wght@400;600;800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header & Navigation -->
+    <header class="main-header" id="header">
+        <div class="header-container">
+            <a href="#" class="logo-area">
+                <!-- Official Brand CI Logo (Scaled up by 1.5x) -->
+                <img src="assets/CI.png" alt="허들링북스 로고" class="huddling-logo" width="90" height="90">
+            </a>
+            
+            <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <nav class="main-nav" id="mainNav">
+                <ul>
+                    <li><a href="#about" class="nav-link">회사소개</a></li>
+                    <li><a href="#books" class="nav-link">출간도서</a></li>
+                    <li><a href="#submission" class="nav-link">투고안내</a></li>
+                    <li><a href="#contact" class="nav-link">문의하기</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero / Main Visual Section -->
+    <section class="hero-section" id="hero">
+        <div class="hero-background" style="background-image: linear-gradient(rgba(87, 87, 86, 0.4), rgba(87, 87, 86, 0.6)), url('assets/hero_bg.jpg');"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <span class="hero-subtitle">Huddling Books</span>
+                <h1 class="hero-title">생각의 폭을 넓히고<br>더불어 함께 사는 지혜를<br>담은 책을 만듭니다.</h1>
+                <p class="hero-desc">우리는 독자와 함께 체온을 나누며, 삶의 한계를 뛰어넘는 재기발랄한 콘텐츠를 만들어 세상에 선한 에너지를 전파합니다.</p>
+                <div class="hero-buttons">
+                    <a href="#books" class="btn btn-primary">출간도서 둘러보기</a>
+                    <a href="#about" class="btn btn-secondary">회사 스토리 읽기</a>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>SCROLL DOWN</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about-section" id="about">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">ABOUT US</span>
+                <h2 class="section-title">따뜻한 연대와 지혜, 허들링</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <!-- Company Story Grid -->
+            <div class="about-grid">
+                <div class="about-card glass-card">
+                    <div class="about-card-icon">
+                        <i class="fa-solid fa-people-group"></i>
+                    </div>
+                    <h3>허들링(Huddling) 이란?</h3>
+                    <p>남극 황제펭귄들이 추운 바람으로부터 열 손실을 막기 위해 원형으로 서 시계 반대 방향으로 돌며 서로에게 꼭 붙어 기대는 행동을 말합니다.</p>
+                    <p class="highlight-text">영하 40도의 혹독한 추위에서 서로의 체온을 지켜내기 위한 황제펭귄만의 독특하고 숭고한 지혜입니다.</p>
+                </div>
+
+                <div class="about-card glass-card">
+                    <div class="about-card-icon">
+                        <i class="fa-solid fa-book-open"></i>
+                    </div>
+                    <h3>허들링북스가 추구하는 방향</h3>
+                    <p>우리는 남극 황제펭귄들의 허들링에서 깊은 영감을 받아, 고단하고 험난한 우리네 삶에 따뜻한 체온과 도움이 되는 특별한 방향성을 제시합니다.</p>
+                    <p class="highlight-text">한계를 뛰어넘는 재기발랄한 콘텐츠를 발굴하여, 독자들과 더불어 다양한 지식을 깊게 향유하고자 합니다.</p>
+                </div>
+            </div>
+
+            <!-- People Info Section -->
+            <div class="people-container">
+                <div class="people-layout">
+                    <div class="people-img-area">
+                        <!-- Recreated Logo Circle for Portrait Placeholder -->
+                        <div class="ceo-avatar">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                    </div>
+                    <div class="people-info-area">
+                        <span class="people-tag">대표 소개</span>
+                        <h3 class="ceo-name">박성인 대표</h3>
+                        <p class="ceo-intro">대한민국 대표 교육 및 출판 콘텐츠 비즈니스를 개척해 온 전문가로서, 독자들의 삶을 윤택하게 만드는 가치 있는 지식 창고를 지향합니다.</p>
+                        
+                        <div class="ceo-timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>메가스터디</h4>
+                                    <p>출판부문 총괄사업 본부장 역임</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>웅진씽크빅</h4>
+                                    <p>출판사업본부장 역임</p>
+                                </div>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <div class="timeline-content">
+                                    <h4>랜덤하우스중앙 & 21세기북스</h4>
+                                    <p>출판 비즈니스 혁신 리드</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Books Section -->
+    <section class="books-section" id="books">
+        <div class="section-container">
+            <div class="section-header">
+                <span class="section-tag">BOOKS</span>
+                <h2 class="section-title">허들링북스 출간도서</h2>
+                <div class="title-underline"></div>
+                <p class="section-desc">에세이부터 인문, 경제경영, 자녀교육까지 독자의 생각을 넓히는 책들입니다.</p>
+            </div>
+
+            <!-- Category Filter Buttons -->
+            <div class="filter-wrapper">
+                <div class="filter-buttons" id="filterButtons">
+                    <button class="filter-btn active" data-filter="all">전체보기</button>
+                    <button class="filter-btn" data-filter="essay">에세이</button>
+                    <button class="filter-btn" data-filter="history">역사/문화</button>
+                    <button class="filter-btn" data-filter="selfdev">자기계발</button>
+                    <button class="filter-btn" data-filter="economy">경제경영</button>
+                    <button class="filter-btn" data-filter="humanities">인문</button>
+                    <button class="filter-btn" data-filter="parenting">자녀교육</button>
+                    <button class="filter-btn" data-filter="health">건강</button>
+                    <button class="filter-btn" data-filter="elementary">초등학습</button>
+                    <button class="filter-btn" data-filter="practical">실용</button>
+                    <button class="filter-btn" data-filter="etc">기타</button>
+                </div>
+            </div>
+
+            <!-- Books Grid Container -->
+            <div class="books-grid" id="booksGrid">
+                <!-- Books will be loaded dynamically via Javascript -->
+                <div class="loading-spinner">
+                    <i class="fa-solid fa-circle-notch fa-spin"></i> 도서 목록을 불러오는 중입니다...
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Detail Modal -->
+    <div class="modal" id="bookModal" aria-hidden="true">
+        <div class="modal-backdrop" id="modalBackdrop"></div>
+        <div class="modal-content-wrapper">
+            <button class="modal-close" id="modalClose" aria-label="닫기">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-body" id="modalBody">
+                <!-- Loaded dynamically on click -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Submission / Manuscript Section -->
+    <section class="submission-section" id="submission">
+        <div class="submission-bg-overlay"></div>
+        <div class="section-container">
+            <div class="submission-layout">
+                <div class="submission-info">
+                    <span class="section-tag light">MANUSCRIPT</span>
+                    <h2>당신의 소중한 원고를<br>기다리고 있습니다.</h2>
+                    <div class="title-underline left"></div>
+                    <p>허들링북스는 한계를 뛰어넘어 세상에 긍정적인 메시지를 전달할 예비 작가님들의 원고를 기다립니다. 보내주신 소중한 이야기는 편집부에서 꼼꼼히 검토하겠습니다.</p>
+                    
+                    <div class="guide-box">
+                        <h3><i class="fa-solid fa-circle-info"></i> 투고 방법 안내</h3>
+                        <ul>
+                            <li><strong>모집 분야:</strong> 에세이, 자기계발, 인문, 역사/문화, 자녀교육, 건강, 실용</li>
+                            <li><strong>제출 서류:</strong> 원고 기획안 (도서 콘셉트, 타깃 독자, 목차 등) 및 원고 일부 또는 전체</li>
+                            <li><strong>접수 메일:</strong> <a href="mailto:contents@huddlingbooks.com">contents@huddlingbooks.com</a></li>
+                            <li><strong>주의 사항:</strong> 메일 제목에 <u>[투고_원고제목_성함]</u> 형태로 접수 바랍니다.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="submission-form-container glass-card">
+                    <h3>간편 투고 & 문의 상담</h3>
+                    <form id="submissionForm" action="https://formsubmit.co/contents@huddlingbooks.com" method="POST" novalidate>
+                        <!-- FormSubmit settings -->
+                        <input type="hidden" name="_subject" id="emailSubject" value="[허들링북스 홈페이지 문의/투고]">
+                        <input type="hidden" name="_next" id="nextUrl" value="">
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="senderName">성함 <span class="required">*</span></label>
+                                <input type="text" id="senderName" name="name" required placeholder="성함을 입력하세요">
+                                <span class="error-msg">이름을 입력해 주세요.</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="senderPhone">연락처 <span class="required">*</span></label>
+                                <input type="tel" id="senderPhone" name="phone" required placeholder="010-0000-0000">
+                                <span class="error-msg">올바른 연락처를 입력해 주세요.</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="senderEmail">이메일 주소 <span class="required">*</span></label>
+                            <input type="email" id="senderEmail" name="email" required placeholder="example@email.com">
+                            <span class="error-msg">올바른 이메일 주소를 입력해 주세요.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiryType">문의 분야 <span class="required">*</span></label>
+                            <select id="inquiryType" name="inquiry_type" required>
+                                <option value="" disabled selected>선택하세요</option>
+                                <option value="submission">도서 출판 투고</option>
+                                <option value="inquiry">도서 대량 구매 및 제휴 문의</option>
+                                <option value="marketing">마케팅 및 기타 제휴</option>
+                            </select>
+                            <span class="error-msg">문의 분야를 선택해 주세요.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiryTitle">제목 <span class="required">*</span></label>
+                            <input type="text" id="inquiryTitle" name="title" required placeholder="제목을 입력하세요">
+                            <span class="error-msg">제목을 입력해 주세요.</span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="inquiryMessage">내용 <span class="required">*</span></label>
+                            <textarea id="inquiryMessage" name="message" rows="5" required placeholder="원고 기획 요약 또는 문의하실 내용을 상세히 적어주세요."></textarea>
+                            <span class="error-msg">내용을 입력해 주세요.</span>
+                        </div>
+
+                        <div class="form-group-checkbox">
+                            <input type="checkbox" id="privacyAgree" required>
+                            <label for="privacyAgree">개인정보 수집 및 이용에 동의합니다. <span class="required">*</span></label>
+                            <span class="error-msg agree-error">동의가 필요합니다.</span>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block" id="btnSubmit">
+                            <span class="btn-text">문의 및 투고 접수</span>
+                            <span class="btn-loading"><i class="fa-solid fa-spinner fa-spin"></i> 전송 중...</span>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Details / Map Section -->
+    <section class="contact-section" id="contact">
+        <div class="section-container">
+            <div class="contact-details-grid">
+                <div class="contact-info-block">
+                    <span class="section-tag">CONTACT INFO</span>
+                    <h2>언제든 편하게<br>연락 주시기 바랍니다.</h2>
+                    <div class="title-underline left"></div>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="icon-circle"><i class="fa-solid fa-phone"></i></div>
+                            <div class="text-area">
+                                <span>대표 전화</span>
+                                <a href="tel:02-2668-9692">02.2668.9692</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon-circle"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="text-area">
+                                <span>이메일</span>
+                                <a href="mailto:contents@huddlingbooks.com">contents@huddlingbooks.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon-circle"><i class="fa-brands fa-instagram"></i></div>
+                            <div class="text-area">
+                                <span>공식 인스타그램</span>
+                                <a href="https://instagram.com/huddlingbooks" target="_blank">@huddlingbooks</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="icon-circle"><i class="fa-solid fa-location-dot"></i></div>
+                            <div class="text-area">
+                                <span>주소</span>
+                                <p>서울시 강서구 공항대로 219, 3층 309-1 (마곡동, 센테니아)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Real Kakao Map integration inside Glassmorphism card -->
+                <div class="contact-map-block glass-card">
+                    <div class="map-inner">
+                        <div class="map-icon"><i class="fa-solid fa-map-location-dot"></i></div>
+                        <h3>허들링북스 찾아오시는 길</h3>
+                        
+                        <!-- Kakao Map embed markup responsive wrapper -->
+                        <div class="kakaomap-wrapper" style="overflow: hidden; border-radius: var(--border-radius-sm); border: 1px solid var(--color-border-light); width: 100%; max-width: 640px; margin: 0 auto; box-shadow: var(--shadow-subtle);">
+                            <div style="font:normal normal 400 12px/normal dotum, sans-serif; width:100%; color:#333; position:relative">
+                                <div style="position:relative; width:100%; padding-bottom:58%; height:0; overflow:hidden;">
+                                    <a href="https://map.kakao.com/?urlX=462892.9999999976&amp;urlY=1127840&amp;name=%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EA%B3%B5%ED%95%AD%EB%8C%80%EB%A1%9C%20219&amp;map_type=TYPE_MAP&amp;from=roughmap" target="_blank" style="position:absolute; top:0; left:0; width:100%; height:100%;">
+                                        <img class="map" src="https://t1.daumcdn.net/roughmap/imgmap/d76b12fcb26898d31312cdcdffbcc270cdc08ecdd7bf7312f22adbe6553f34eb" style="border:0; width:100%; height:100%; object-fit:cover; display:block;" alt="지도 이미지">
+                                    </a>
+                                </div>
+                                <div style="overflow: hidden; padding: 10px 15px; border-top: 1px solid rgba(0, 0, 0, 0.05); background-color: rgb(249, 249, 249); display: flex; justify-content: space-between; align-items: center;">
+                                    <a href="https://map.kakao.com" target="_blank" style="display: flex; align-items: center;">
+                                        <img src="https://t1.kakaocdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png" width="72" height="16" alt="카카오맵" style="display:block;width:72px;height:16px">
+                                    </a>
+                                    <div style="font-size: 12px; font-weight: 500;">
+                                        <a target="_blank" href="https://map.kakao.com/?from=roughmap&amp;eName=%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EA%B3%B5%ED%95%AD%EB%8C%80%EB%A1%9C%20219&amp;eX=462892.9999999976&amp;eY=1127840" style="color:var(--color-accent-mint-dark); text-decoration: none; display: flex; align-items: center; gap: 0.3rem;">
+                                            <i class="fa-solid fa-diamond-turn-right"></i> 길찾기
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submission Success Alert Modal -->
+    <div class="alert-modal" id="alertModal" aria-hidden="true">
+        <div class="alert-modal-backdrop"></div>
+        <div class="alert-modal-box glass-card">
+            <div class="alert-icon success">
+                <i class="fa-solid fa-check"></i>
+            </div>
+            <h3>소중한 문의가 접수되었습니다!</h3>
+            <p>보내주신 내용과 원고는 담당 에디터가 확인하여 기입해주신 연락처 및 이메일로 빠른 시일 내에 연락드리겠습니다.</p>
+            <p class="sub-alert">허들링북스와 더불어 함께 사는 가치를 전해주셔서 감사합니다.</p>
+            <button class="btn btn-primary" id="alertClose">확인</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <i class="fa-solid fa-people-group"></i> HUDDLING BOOKS
+                    </div>
+                    <p class="brand-slogan">생각의 폭을 넓히고 더불어 함께 사는 지혜를 담은 책을 만듭니다.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>QUICK LINKS</h4>
+                    <ul>
+                        <li><a href="#about">회사소개</a></li>
+                        <li><a href="#books">출간도서</a></li>
+                        <li><a href="#submission">투고안내</a></li>
+                        <li><a href="#contact">문의하기</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 HUDDLINGBOOKS. All Rights Reserved.</p>
+                <div class="footer-bottom-info">
+                    <span>상호명: 허들링북스</span>
+                    <span>대표: 박성인</span>
+                    <span>주소: 서울시 강서구 공항대로 219, 3층 309-1 (마곡동, 센테니아)</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Core Logic Javascript -->
+    <script src="books.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
