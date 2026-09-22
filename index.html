@@ -7,13 +7,35 @@
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Outfit:wght@400;600;800&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Outfit:wght@400;600;800&family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif+KR:wght@500;600;700;900&display=swap" rel="stylesheet">
     <!-- FontAwesome for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Custom Style Sheet -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- Brand Mark: two huddling penguins, redrawn from the Huddling Books CI -->
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <symbol id="huddle-mark" viewBox="0 0 220 170">
+            <g>
+                <ellipse cx="62" cy="158" rx="9" ry="4.5"/>
+                <ellipse cx="82" cy="158" rx="9" ry="4.5"/>
+                <ellipse cx="38" cy="95" rx="11" ry="34" transform="rotate(-12 38 95)"/>
+                <path d="M 72 40 C 48 42 34 68 34 100 C 34 128 46 155 72 155 C 98 155 108 130 106 102 C 104 76 94 42 72 40 Z"/>
+                <circle cx="86" cy="34" r="21"/>
+                <path d="M 70 20 C 76 13 88 12 96 18" class="huddle-mark-gold" stroke-width="5" fill="none" stroke-linecap="round"/>
+            </g>
+            <g transform="translate(220,0) scale(-1,1)">
+                <ellipse cx="62" cy="158" rx="9" ry="4.5"/>
+                <ellipse cx="82" cy="158" rx="9" ry="4.5"/>
+                <ellipse cx="38" cy="95" rx="11" ry="34" transform="rotate(-12 38 95)"/>
+                <path d="M 72 40 C 48 42 34 68 34 100 C 34 128 46 155 72 155 C 98 155 108 130 106 102 C 104 76 94 42 72 40 Z"/>
+                <circle cx="86" cy="34" r="21"/>
+                <path d="M 70 20 C 76 13 88 12 96 18" class="huddle-mark-gold" stroke-width="5" fill="none" stroke-linecap="round"/>
+            </g>
+        </symbol>
+    </svg>
 
     <!-- Header & Navigation -->
     <header class="main-header" id="header">
@@ -60,6 +82,7 @@
 
     <!-- About Section -->
     <section class="about-section" id="about">
+        <svg class="about-watermark" aria-hidden="true"><use href="#huddle-mark"></use></svg>
         <div class="section-container">
             <div class="section-header">
                 <span class="section-tag">ABOUT US</span>
@@ -331,7 +354,7 @@
                                         <img src="https://t1.kakaocdn.net/localimg/localimages/07/2018/pc/common/logo_kakaomap.png" width="72" height="16" alt="카카오맵" style="display:block;width:72px;height:16px">
                                     </a>
                                     <div style="font-size: 12px; font-weight: 500;">
-                                        <a target="_blank" href="https://map.kakao.com/?from=roughmap&amp;eName=%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EA%B3%B5%ED%95%AD%EB%8C%80%EB%A1%9C%20219&amp;eX=462892.9999999976&amp;eY=1127840" style="color:var(--color-accent-mint-dark); text-decoration: none; display: flex; align-items: center; gap: 0.3rem;">
+                                        <a target="_blank" href="https://map.kakao.com/?from=roughmap&amp;eName=%EC%84%9C%EC%9A%B8%20%EA%B0%95%EC%84%9C%EA%B5%AC%20%EA%B3%B5%ED%95%AD%EB%8C%80%EB%A1%9C%20219&amp;eX=462892.9999999976&amp;eY=1127840" style="color:var(--color-gold-deep); text-decoration: none; display: flex; align-items: center; gap: 0.3rem;">
                                             <i class="fa-solid fa-diamond-turn-right"></i> 길찾기
                                         </a>
                                     </div>
@@ -364,7 +387,8 @@
             <div class="footer-top">
                 <div class="footer-brand">
                     <div class="footer-logo">
-                        <i class="fa-solid fa-people-group"></i> HUDDLING BOOKS
+                        <svg class="footer-mark" aria-hidden="true"><use href="#huddle-mark"></use></svg>
+                        HUDDLING BOOKS
                     </div>
                     <p class="brand-slogan">생각의 폭을 넓히고 더불어 함께 사는 지혜를 담은 책을 만듭니다.</p>
                 </div>

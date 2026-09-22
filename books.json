@@ -8,7 +8,12 @@
     "categoryEng": "essay",
     "image": "assets/essay-1.jpeg",
     "summary": "마음 읽어주는 신부 홍창진의 유쾌한 인생 수업",
-    "description": "함부로 상처받지 마라. 이대로 멈춰 서기엔 인생이 너무 짧다. 상처받고 힘든 현대인들에게 건네는 홍창진 신부의 유쾌하고 따뜻한 위로의 에세이."
+    "description": "함부로 상처받지 마라. 이대로 멈춰 서기엔 인생이 너무 짧다. 상처받고 힘든 현대인들에게 건네는 홍창진 신부의 유쾌하고 따뜻한 위로의 에세이.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001951805",
+      "yes24": "https://www.yes24.com/product/goods/97794151",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=266079731"
+    }
   },
   {
     "id": "essay-2",
@@ -19,7 +24,12 @@
     "categoryEng": "essay",
     "image": "assets/essay-2.jpeg",
     "summary": "국가대표에서 국회의원까지, 임오경의 도전과 극복의 기록",
-    "description": "인생이라는 경기장에서 날아오는 수많은 도전과 시련의 공들. 피하지 않고 맞서 싸운 임오경이 전하는 용기와 열정의 메시지."
+    "description": "인생이라는 경기장에서 날아오는 수많은 도전과 시련의 공들. 피하지 않고 맞서 싸운 임오경이 전하는 용기와 열정의 메시지.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000211707341",
+      "yes24": "https://www.yes24.com/product/goods/124184816",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=330613145"
+    }
   },
   {
     "id": "essay-3",
@@ -30,7 +40,12 @@
     "categoryEng": "essay",
     "image": "assets/essay-3.jpeg",
     "summary": "다정한 언어로 해석하는 16가지 성격 유형",
-    "description": "타인과 나를 더 잘 이해하기 위해 MBTI를 다정한 언어로 분석하고 기록한 마음 관찰 일기."
+    "description": "타인과 나를 더 잘 이해하기 위해 MBTI를 다정한 언어로 분석하고 기록한 마음 관찰 일기.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000212577061",
+      "yes24": "https://www.yes24.com/product/goods/125183822",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=335111522"
+    }
   },
   {
     "id": "essay-4",
@@ -41,7 +56,12 @@
     "categoryEng": "essay",
     "image": "assets/essay-4.jpeg",
     "summary": "산티아고 길 위에서의 46일간의 깊은 여정",
-    "description": "속도를 늦추고 온전히 걷는 것에 집중하며 스스로를 되돌아보는 여정. 산티아고 순례길 46일의 기록."
+    "description": "속도를 늦추고 온전히 걷는 것에 집중하며 스스로를 되돌아보는 여정. 산티아고 순례길 46일의 기록.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000061353982",
+      "yes24": "https://www.yes24.com/product/goods/109711389",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=295253277"
+    }
   },
   {
     "id": "essay-5",
@@ -52,7 +72,12 @@
     "categoryEng": "essay",
     "image": "assets/essay-5.jpeg",
     "summary": "삶에 허기진 당신을 위한 위로의 밥상",
-    "description": "지치고 허기진 날, 따뜻한 밥 한 끼가 주는 조용한 위로와 음식에 얽힌 다정한 에세이."
+    "description": "지치고 허기진 날, 따뜻한 밥 한 끼가 주는 조용한 위로와 음식에 얽힌 다정한 에세이.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001951807",
+      "yes24": "https://www.yes24.com/product/goods/103663606",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=279407316"
+    }
   },
   {
     "id": "essay-6",
@@ -63,7 +88,12 @@
     "categoryEng": "essay",
     "image": "assets/essay-6.jpeg",
     "summary": "초보 집사 박수홍의 단짠단짠 육묘일기",
-    "description": "길고양이 다홍이를 만나며 삶의 큰 위로를 얻은 박수홍의 따뜻하고 감동적인 고양이 포토 에세이."
+    "description": "길고양이 다홍이를 만나며 삶의 큰 위로를 얻은 박수홍의 따뜻하고 감동적인 고양이 포토 에세이.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001951806",
+      "yes24": "https://www.yes24.com/product/goods/103152092",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=277211687"
+    }
   },
   {
     "id": "essay-7",
@@ -74,7 +104,12 @@
     "categoryEng": "essay",
     "image": "assets/essay-7.jpeg",
     "summary": "싫존주의자의 솔직담백한 술땀눈물 기록",
-    "description": "숙취로 시작해 만취로 끝나는 유쾌한 라이프스타일. 내일에 얽매이지 않고 오늘에 충실한 삶의 찬가."
+    "description": "숙취로 시작해 만취로 끝나는 유쾌한 라이프스타일. 내일에 얽매이지 않고 오늘에 충실한 삶의 찬가.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001982996",
+      "yes24": "https://www.yes24.com/product/goods/90512805",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=242503154"
+    }
   },
   {
     "id": "essay-8",
@@ -85,7 +120,12 @@
     "categoryEng": "essay",
     "image": "assets/essay-8.jpeg",
     "summary": "70만 구독자의 심장을 저격한 꼬마 강아지 몽자의 에세이",
-    "description": "귀여운 강아지 몽자의 일상 사진 and 미공개 에피소드가 듬뿍 담긴 힐링 포토 코믹 에세이."
+    "description": "귀여운 강아지 몽자의 일상 사진 and 미공개 에피소드가 듬뿍 담긴 힐링 포토 코믹 에세이.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001983001",
+      "yes24": "https://www.yes24.com/product/goods/94434110",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=254556995"
+    }
   },
   {
     "id": "history-1",
@@ -96,7 +136,12 @@
     "categoryEng": "history",
     "image": "assets/history-1.jpeg",
     "summary": "독도에서 임시정부까지 살아있는 역사 이야기",
-    "description": "우리 역사의 주요 쟁점과 가치를 올바르게 지키기 위해 역사 홍보 전문가 서경덕과 최고의 학자들이 모여 쓴 쉬운 역사 가이드."
+    "description": "우리 역사의 주요 쟁점과 가치를 올바르게 지키기 위해 역사 홍보 전문가 서경덕과 최고의 학자들이 모여 쓴 쉬운 역사 가이드.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000217029224",
+      "yes24": "https://www.yes24.com/product/goods/148872771",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=367655300"
+    }
   },
   {
     "id": "history-2",
@@ -107,7 +152,12 @@
     "categoryEng": "history",
     "image": "assets/history-2.jpeg",
     "summary": "100년의 시간을 건너, 당신의 손끝에 닿은 서신",
-    "description": "독립운동가들이 조국과 가족에게 남긴 서신과 흔적을 필사하며 그들의 숭고한 나라 사랑을 온전히 느껴보는 역사 기억 프로젝트북."
+    "description": "독립운동가들이 조국과 가족에게 남긴 서신과 흔적을 필사하며 그들의 숭고한 나라 사랑을 온전히 느껴보는 역사 기억 프로젝트북.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000219926352",
+      "yes24": "https://www.yes24.com/product/goods/189188872",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392549176"
+    }
   },
   {
     "id": "selfdev-1",
@@ -118,7 +168,12 @@
     "categoryEng": "selfdev",
     "image": "assets/selfdev-1.jpeg",
     "summary": "유연하게 대처하고 단호하게 거절하는 소통 심리학",
-    "description": "무례한 사람들 틈에서 내 감정을 지키고, 선을 넘는 타인에게 우아하면서도 명확하게 거절과 경고를 날리는 실전 인간관계 처방전."
+    "description": "무례한 사람들 틈에서 내 감정을 지키고, 선을 넘는 타인에게 우아하면서도 명확하게 거절과 경고를 날리는 실전 인간관계 처방전.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000202611126",
+      "yes24": "https://www.yes24.com/product/goods/119456960",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=318302590"
+    }
   },
   {
     "id": "selfdev-2",
@@ -129,7 +184,12 @@
     "categoryEng": "selfdev",
     "image": "assets/selfdev-2.jpeg",
     "summary": "평범한 팀은 어떻게 탁월한 성과를 내는가?",
-    "description": "혼자서는 이룰 수 없는 목표를 집단의 힘으로 달성해내는 팀플레이의 법칙. 소통, 협동, 그리고 개인의 성장을 유도하는 일 방식."
+    "description": "혼자서는 이룰 수 없는 목표를 집단의 힘으로 달성해내는 팀플레이의 법칙. 소통, 협동, 그리고 개인의 성장을 유도하는 일 방식.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000201368679",
+      "yes24": "https://www.yes24.com/product/goods/118146029",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=313960328"
+    }
   },
   {
     "id": "selfdev-3",
@@ -140,7 +200,12 @@
     "categoryEng": "selfdev",
     "image": "assets/selfdev-3.jpeg",
     "summary": "1주일에 단 2시간! 효율적인 운동으로 몸짱 되는 비결",
-    "description": "하루 종일 헬스장에서 살지 않아도 된다. 바쁜 현대인들을 위한 핵심 효율 중심의 스마트한 기적의 몸만들기 프로젝트."
+    "description": "하루 종일 헬스장에서 살지 않아도 된다. 바쁜 현대인들을 위한 핵심 효율 중심의 스마트한 기적의 몸만들기 프로젝트.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000213572849",
+      "yes24": "https://www.yes24.com/product/goods/127750634",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=341500464"
+    }
   },
   {
     "id": "selfdev-4",
@@ -151,7 +216,12 @@
     "categoryEng": "selfdev",
     "image": "assets/selfdev-4.jpeg",
     "summary": "관계 탄력성, 자기 효능감, 업무 그립감을 높이는 법",
-    "description": "회사에서 살아남기 위한 극사실주의 처세의 정답. 눈에 보이지 않는 직장의 공기(맥락)를 정확히 파악하여 나의 가치를 올리는 노하우."
+    "description": "회사에서 살아남기 위한 극사실주의 처세의 정답. 눈에 보이지 않는 직장의 공기(맥락)를 정확히 파악하여 나의 가치를 올리는 노하우.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000218917572",
+      "yes24": "https://www.yes24.com/product/goods/171426430",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=382644855"
+    }
   },
   {
     "id": "economy-1",
@@ -162,7 +232,12 @@
     "categoryEng": "economy",
     "image": "assets/economy-1.jpeg",
     "summary": "계약서, 세금, 재개발까지 완전 정복",
-    "description": "부동산 투자의 성공은 지독한 기본기에서 나온다. 초보자도 쉽게 따라 할 수 있는 필수 부동산 핵심 실무 바이블."
+    "description": "부동산 투자의 성공은 지독한 기본기에서 나온다. 초보자도 쉽게 따라 할 수 있는 필수 부동산 핵심 실무 바이블.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000211878250",
+      "yes24": "https://www.yes24.com/product/goods/124478258",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=331835152"
+    }
   },
   {
     "id": "economy-2",
@@ -173,7 +248,12 @@
     "categoryEng": "economy",
     "image": "assets/economy-2.jpeg",
     "summary": "혼돈의 시대, 거대한 부의 탄생이 시작됐다",
-    "description": "비트코인은 일시적인 투기 바람인가, 새로운 디지털 화폐 혁명인가. 가상자산 전문가가 짚어주는 블록체인 부의 미래 트렌드."
+    "description": "비트코인은 일시적인 투기 바람인가, 새로운 디지털 화폐 혁명인가. 가상자산 전문가가 짚어주는 블록체인 부의 미래 트렌드.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000214308896",
+      "yes24": "https://www.yes24.com/product/goods/133342726",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=347134387"
+    }
   },
   {
     "id": "economy-3",
@@ -184,7 +264,12 @@
     "categoryEng": "economy",
     "image": "assets/economy-3.jpeg",
     "summary": "목표를 스스로 이루게 하는 행동 설계 마케팅",
-    "description": "초히트 게임 디렉터가 말하는 행동 유도 기법. 젤다의 전설 등 글로벌 엔터 제국 닌텐도가 전 세계 플레이어를 사로잡은 비밀 기법 대공개."
+    "description": "초히트 게임 디렉터가 말하는 행동 유도 기법. 젤다의 전설 등 글로벌 엔터 제국 닌텐도가 전 세계 플레이어를 사로잡은 비밀 기법 대공개.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000220617618",
+      "yes24": "https://www.yes24.com/product/goods/194250816",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=398828589"
+    }
   },
   {
     "id": "economy-4",
@@ -195,7 +280,12 @@
     "categoryEng": "economy",
     "image": "assets/economy-4.jpeg",
     "summary": "상승장의 욕심과 하락장의 불안을 이겨내는 투자 원칙",
-    "description": "주식 대폭락에도 수익률 15,000%를 만든 멘탈 전문가의 심리 특강. 흔들리는 시장 속에서 내 돈과 마음을 지키는 멘탈 훈련법."
+    "description": "주식 대폭락에도 수익률 15,000%를 만든 멘탈 전문가의 심리 특강. 흔들리는 시장 속에서 내 돈과 마음을 지키는 멘탈 훈련법.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000201259054",
+      "yes24": "https://www.yes24.com/product/goods/117958172",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=313560897"
+    }
   },
   {
     "id": "economy-5",
@@ -206,7 +296,12 @@
     "categoryEng": "economy",
     "image": "assets/economy-5.jpeg",
     "summary": "경제전문 기자가 알려주는 아파트 구매 프로토콜 6단계",
-    "description": "왜 저 많은 아파트 중에 내 집은 없는 걸까? 1인 가구를 타깃으로 최신 부동산 정책에 발맞추어 영리하게 내 집을 마련하는 6단계 로드맵."
+    "description": "왜 저 많은 아파트 중에 내 집은 없는 걸까? 1인 가구를 타깃으로 최신 부동산 정책에 발맞추어 영리하게 내 집을 마련하는 6단계 로드맵.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001982999",
+      "yes24": "https://www.yes24.com/product/goods/91922047",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=249454342"
+    }
   },
   {
     "id": "humanities-1",
@@ -217,7 +312,12 @@
     "categoryEng": "humanities",
     "image": "assets/humanities-1.jpeg",
     "summary": "북마녀의 베스트 작가 실전 트레이닝",
-    "description": "웹소설 3대 플랫폼 완벽 분석 및 작법 훈련. 기초부터 실전 투고, 수익 창출까지 친절하게 이끌어주는 웹소설 특급 과외."
+    "description": "웹소설 3대 플랫폼 완벽 분석 및 작법 훈련. 기초부터 실전 투고, 수익 창출까지 친절하게 이끌어주는 웹소설 특급 과외.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001983000",
+      "yes24": "https://www.yes24.com/product/goods/96556598",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=259567413"
+    }
   },
   {
     "id": "humanities-2",
@@ -228,7 +328,12 @@
     "categoryEng": "humanities",
     "image": "assets/humanities-2.jpeg",
     "summary": "웹소설 작가를 위한 어휘력 UP 프로젝트",
-    "description": "장르 문학의 맛을 살리는 핵심 어휘 모음. 감정과 액션을 극대화할 수 있는 표현들과 상황별 단어 데이터베이스."
+    "description": "장르 문학의 맛을 살리는 핵심 어휘 모음. 감정과 액션을 극대화할 수 있는 표현들과 상황별 단어 데이터베이스.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001951810",
+      "yes24": "https://www.yes24.com/product/goods/108930502",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=292996961"
+    }
   },
   {
     "id": "humanities-3",
@@ -239,7 +344,12 @@
     "categoryEng": "humanities",
     "image": "assets/humanities-3.jpeg",
     "summary": "성인 로맨스/로판 작가를 위한 19금 묘사 단어집",
-    "description": "유려하고 짜릿한 로맨스 씬 묘사를 위해 엄선된 단어와 예문집. 어휘의 한계를 넘어 몰입감을 높여주는 작가용 시크릿 바이블."
+    "description": "유려하고 짜릿한 로맨스 씬 묘사를 위해 엄선된 단어와 예문집. 어휘의 한계를 넘어 몰입감을 높여주는 작가용 시크릿 바이블.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000202055792",
+      "yes24": "https://www.yes24.com/product/goods/118856701",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=316565921"
+    }
   },
   {
     "id": "humanities-4",
@@ -250,7 +360,12 @@
     "categoryEng": "humanities",
     "image": "assets/humanities-4.jpeg",
     "summary": "프로 작가가 되기 위한 생존 스토리 플롯 공식",
-    "description": "독자가 끝까지 읽게 만드는 영리한 스토리 아크와 플롯 구조 설계법. 독보적이고 입체적인 캐릭터 구축법 강의."
+    "description": "독자가 끝까지 읽게 만드는 영리한 스토리 아크와 플롯 구조 설계법. 독보적이고 입체적인 캐릭터 구축법 강의.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000061353983",
+      "yes24": "https://www.yes24.com/product/goods/110093509",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=296398734"
+    }
   },
   {
     "id": "humanities-5",
@@ -261,7 +376,12 @@
     "categoryEng": "humanities",
     "image": "assets/humanities-5.jpeg",
     "summary": "나르시시스트 부모로부터 나를 지키는 치유의 심리학",
-    "description": "타인의 부정적인 감정과 폭력적 언어 소음 속에서 나를 완전히 격리(진공 상태)하고, 온전히 나만의 자아를 회복해 나가는 심리 치유 에세이."
+    "description": "타인의 부정적인 감정과 폭력적 언어 소음 속에서 나를 완전히 격리(진공 상태)하고, 온전히 나만의 자아를 회복해 나가는 심리 치유 에세이.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000219997283",
+      "yes24": "https://www.yes24.com/product/goods/189520420",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=393315048"
+    }
   },
   {
     "id": "parenting-1",
@@ -272,7 +392,12 @@
     "categoryEng": "parenting",
     "image": "assets/parenting-1.jpeg",
     "summary": "국내 유일 서울대 3개 학과 동시 졸업자의 공부법",
-    "description": "공부는 놀이처럼 유쾌해야 한다. 아이 스스로 책상 앞에 앉게 만드는 동기 부여와 자기주도 학습을 완성해주는 엄마표 러닝 코칭 노하우."
+    "description": "공부는 놀이처럼 유쾌해야 한다. 아이 스스로 책상 앞에 앉게 만드는 동기 부여와 자기주도 학습을 완성해주는 엄마표 러닝 코칭 노하우.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000209651655",
+      "yes24": "https://www.yes24.com/product/goods/122758474",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=325765806"
+    }
   },
   {
     "id": "parenting-2",
@@ -283,7 +408,12 @@
     "categoryEng": "parenting",
     "image": "assets/parenting-2.jpeg",
     "summary": "공부가 쉬워지는 13년간의 문해력 처방전",
-    "description": "평생 공부 머리를 결정하는 힘은 바로 '문해력'이다. 책 육아 전문가가 전하는 하루 30분의 기적, 문해력 성장 로드맵."
+    "description": "평생 공부 머리를 결정하는 힘은 바로 '문해력'이다. 책 육아 전문가가 전하는 하루 30분의 기적, 문해력 성장 로드맵.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000200640434",
+      "yes24": "https://www.yes24.com/product/goods/116855925",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=308608819"
+    }
   },
   {
     "id": "parenting-3",
@@ -294,7 +424,12 @@
     "categoryEng": "parenting",
     "image": "assets/parenting-3.jpeg",
     "summary": "아이와 엄마가 함께 성장하는 자기주도 학습 습관",
-    "description": "공부가 일상이 되고 생활이 되는 사월이네만의 즐거운 습관 형성 팁. 가정 학습 스케줄 구성과 칭찬 피드백 기법."
+    "description": "공부가 일상이 되고 생활이 되는 사월이네만의 즐거운 습관 형성 팁. 가정 학습 스케줄 구성과 칭찬 피드백 기법.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000214977569",
+      "yes24": "https://www.yes24.com/product/goods/140133166",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=353837901"
+    }
   },
   {
     "id": "parenting-4",
@@ -305,7 +440,12 @@
     "categoryEng": "parenting",
     "image": "assets/parenting-4.jpeg",
     "summary": "고려대 영재교육원 10년의 공부 비밀을 밝힌다",
-    "description": "대한민국 유일 '뇌 읽는' 상담심리학자 이민주 교수가 밝히는, 우리 아이 뇌의 특성을 살려 스스로 효율적으로 공부하는 인지과학적 학습법."
+    "description": "대한민국 유일 '뇌 읽는' 상담심리학자 이민주 교수가 밝히는, 우리 아이 뇌의 특성을 살려 스스로 효율적으로 공부하는 인지과학적 학습법.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000218576638",
+      "yes24": "https://www.yes24.com/product/goods/166375461",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=377711700"
+    }
   },
   {
     "id": "health-1",
@@ -316,7 +456,12 @@
     "categoryEng": "health",
     "image": "assets/health-1.jpeg",
     "summary": "나는 매일 예뻐지고 있다, 1년 365일 안티에이징 팁",
-    "description": "가정의학과 전문의 민혜연이 제안하는 일상의 작은 뷰티/헬스 솔루션. 올바른 식습관과 스킨케어로 속부터 젊어지는 법."
+    "description": "가정의학과 전문의 민혜연이 제안하는 일상의 작은 뷰티/헬스 솔루션. 올바른 식습관과 스킨케어로 속부터 젊어지는 법.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000201529488",
+      "yes24": "https://www.yes24.com/product/goods/118490047",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=315213152"
+    }
   },
   {
     "id": "health-2",
@@ -327,7 +472,12 @@
     "categoryEng": "health",
     "image": "assets/health-2.jpeg",
     "summary": "몸과 마음이 단단해지는 힐링 테라피",
-    "description": "바쁜 일상에서 나만을 위한 15분 요가 리추얼. 호흡과 동작을 통해 몸의 불균형을 다잡고 내면의 평화를 찾는 요가 가이드."
+    "description": "바쁜 일상에서 나만을 위한 15분 요가 리추얼. 호흡과 동작을 통해 몸의 불균형을 다잡고 내면의 평화를 찾는 요가 가이드.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000209150265",
+      "yes24": "https://www.yes24.com/product/goods/122460156",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=324634268"
+    }
   },
   {
     "id": "health-3",
@@ -338,7 +488,12 @@
     "categoryEng": "health",
     "image": "assets/health-3.jpeg",
     "summary": "누구나 10년 젊어지는 역노화 건강 혁명",
-    "description": "빨라지는 노화 시계의 원인은 혈당과 호르몬에 있다! 서울대 의학박사가 대공개하는 과속 노화를 막는 기적의 식사법과 생활 습관."
+    "description": "빨라지는 노화 시계의 원인은 혈당과 호르몬에 있다! 서울대 의학박사가 대공개하는 과속 노화를 막는 기적의 식사법과 생활 습관.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000216226879",
+      "yes24": "https://www.yes24.com/product/goods/144563959",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=361759184"
+    }
   },
   {
     "id": "health-4",
@@ -349,7 +504,12 @@
     "categoryEng": "health",
     "image": "assets/health-4.jpeg",
     "summary": "과속 노화를 멈추고 느리게 나이 드는 법",
-    "description": "우리 몸의 항상성 조절력을 정상화하여 면역력을 극대화하고 나이보다 훨씬 젊은 신체 나이를 영위하는 건강 비법."
+    "description": "우리 몸의 항상성 조절력을 정상화하여 면역력을 극대화하고 나이보다 훨씬 젊은 신체 나이를 영위하는 건강 비법.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000218582457",
+      "yes24": "https://www.yes24.com/product/goods/166436978",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=377879132"
+    }
   },
   {
     "id": "elementary-1",
@@ -360,7 +520,12 @@
     "categoryEng": "elementary",
     "image": "assets/elementary-1.png",
     "summary": "문해력을 완성하는 초등 예비~1학년 맞춤형 쓰기",
-    "description": "초등 학습의 핵심인 독해력과 어휘력을 키우기 위한 기초 쓰기 훈련서. 하루 15분, 글쓰기 습관의 첫걸음."
+    "description": "초등 학습의 핵심인 독해력과 어휘력을 키우기 위한 기초 쓰기 훈련서. 하루 15분, 글쓰기 습관의 첫걸음.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000200770933",
+      "yes24": "https://www.yes24.com/product/goods/117095231",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309614153"
+    }
   },
   {
     "id": "elementary-2",
@@ -371,7 +536,12 @@
     "categoryEng": "elementary",
     "image": "assets/elementary-2.png",
     "summary": "초등 1~2학년을 위한 어휘/문장 쓰기 기초",
-    "description": "정확한 낱말 맞춤법부터 서술형 문장 쓰기까지 단계적으로 국어 표현력을 완성하는 자기주도 워크북."
+    "description": "정확한 낱말 맞춤법부터 서술형 문장 쓰기까지 단계적으로 국어 표현력을 완성하는 자기주도 워크북.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000200773857",
+      "yes24": "https://www.yes24.com/product/goods/117101626",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309625991"
+    }
   },
   {
     "id": "elementary-3",
@@ -382,7 +552,12 @@
     "categoryEng": "elementary",
     "image": "assets/elementary-3.png",
     "summary": "초등 3~4학년을 위한 논리적 문맥 글쓰기",
-    "description": "단순 일기 쓰기를 넘어 독서록, 논술, 설명문 등 글의 갈래에 맞는 구조적 쓰기를 훈련하여 글쓰기 자신감을 키워주는 워크북."
+    "description": "단순 일기 쓰기를 넘어 독서록, 논술, 설명문 등 글의 갈래에 맞는 구조적 쓰기를 훈련하여 글쓰기 자신감을 키워주는 워크북.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000200773944",
+      "yes24": "https://www.yes24.com/product/goods/117103183",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=309625251"
+    }
   },
   {
     "id": "practical-1",
@@ -393,7 +568,12 @@
     "categoryEng": "practical",
     "image": "assets/practical-1.jpeg",
     "summary": "55만 유튜버 마미오븐이 인정하는 손반죽 입문서",
-    "description": "식빵부터 모카번까지 누구나 집에서 실패 없이 성공할 수 있는 가장 쉬운 친절 베이킹 바이블."
+    "description": "식빵부터 모카번까지 누구나 집에서 실패 없이 성공할 수 있는 가장 쉬운 친절 베이킹 바이블.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001982997",
+      "yes24": "https://www.yes24.com/product/goods/90979575",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=244163461"
+    }
   },
   {
     "id": "practical-2",
@@ -404,7 +584,12 @@
     "categoryEng": "practical",
     "image": "assets/practical-2.jpeg",
     "summary": "142만 구독자가 사랑한 쿠킹씨의 특별 디저트 레슨",
-    "description": "유튜브 조회수 1억 6백만 뷰 돌파! 디저트 종류별 완벽 레시피와 핵심 팁만 모아놓은 초강력 홈베이킹 교과서."
+    "description": "유튜브 조회수 1억 6백만 뷰 돌파! 디저트 종류별 완벽 레시피와 핵심 팁만 모아놓은 초강력 홈베이킹 교과서.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001983002",
+      "yes24": "https://www.yes24.com/product/goods/97668400",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=265508114"
+    }
   },
   {
     "id": "practical-3",
@@ -415,7 +600,12 @@
     "categoryEng": "practical",
     "image": "assets/practical-3.jpeg",
     "summary": "아야빠의 새집 만들기 셀프 집수리 프로젝트",
-    "description": "페인팅, 조명 설치, 가구 리폼 등 적은 예산으로 내 취향에 맞게 집 분위기를 180도 바꾸는 초보자 맞춤형 셀프 인테리어 바이블."
+    "description": "페인팅, 조명 설치, 가구 리폼 등 적은 예산으로 내 취향에 맞게 집 분위기를 180도 바꾸는 초보자 맞춤형 셀프 인테리어 바이블.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001951809",
+      "yes24": "https://www.yes24.com/product/goods/107633848",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=289524534"
+    }
   },
   {
     "id": "practical-4",
@@ -426,7 +616,12 @@
     "categoryEng": "practical",
     "image": "assets/practical-4.jpeg",
     "summary": "입맛 까다로운 아이도 스스로 완밥하는 마법의 레시피",
-    "description": "인스타그램 '짠짜니맘'의 특별 비법. 맛과 영양을 모두 잡고, 핑거 푸드부터 간식까지 아이의 자기주도 식사 습관을 기르는 법."
+    "description": "인스타그램 '짠짜니맘'의 특별 비법. 맛과 영양을 모두 잡고, 핑거 푸드부터 간식까지 아이의 자기주도 식사 습관을 기르는 법.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000208701819",
+      "yes24": "https://www.yes24.com/product/goods/121951176",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=323280853"
+    }
   },
   {
     "id": "etc-1",
@@ -437,7 +632,12 @@
     "categoryEng": "etc",
     "image": "assets/etc-1.jpeg",
     "summary": "조나단의 기묘하고 신비한 동물 컬러링북",
-    "description": "동물들의 위트 있고 기묘한 세상을 세밀하고 독특한 선으로 묘사한, 지친 일상을 치유해주는 어른용 힐링 컬러링북."
+    "description": "동물들의 위트 있고 기묘한 세상을 세밀하고 독특한 선으로 묘사한, 지친 일상을 치유해주는 어른용 힐링 컬러링북.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001982998",
+      "yes24": "https://www.yes24.com/product/goods/91332236",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=247034262"
+    }
   },
   {
     "id": "etc-2",
@@ -448,6 +648,11 @@
     "categoryEng": "etc",
     "image": "assets/etc-2.jpeg",
     "summary": "웨딩 업계가 절대 알려주지 않는 스마트한 결혼 준비법",
-    "description": "왜 '웨딩'만 붙으면 결혼 준비 비용이 천정부지로 솟을까? 현직 전문가가 가감 없이 폭로하는 호갱 방지 결혼 컨설팅 에세이."
+    "description": "왜 '웨딩'만 붙으면 결혼 준비 비용이 천정부지로 솟을까? 현직 전문가가 가감 없이 폭로하는 호갱 방지 결혼 컨설팅 에세이.",
+    "purchaseLinks": {
+      "kyobo": "https://product.kyobobook.co.kr/detail/S000001951808",
+      "yes24": "https://www.yes24.com/product/goods/105750817",
+      "aladin": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=285296267"
+    }
   }
 ]

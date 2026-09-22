@@ -148,7 +148,25 @@ document.addEventListener('DOMContentLoaded', () => {
     /* ==========================================================================
        4. Book Detail Modal Interaction
        ========================================================================== */
+    // Each book's purchaseLinks (set in books.json/books.js) point directly to
+    // that title's product detail page on each store, not a search results page.
+    function getStoreLinks(book) {
+        const links = book.purchaseLinks || {};
+        return [
+            { name: '교보문고', logo: 'assets/store-kyobo.svg', url: links.kyobo },
+            { name: '예스24', logo: 'assets/store-yes24.png', url: links.yes24 },
+            { name: '알라딘', logo: 'assets/store-aladin.jpg', url: links.aladin }
+        ].filter(store => store.url);
+    }
+
     function openBookModal(book) {
+        const stores = getStoreLinks(book);
+        const storeLinksHtml = stores.map(store => `
+            <a class="store-link" href="${store.url}" target="_blank" rel="noopener noreferrer">
+                <img src="${store.logo}" alt="${store.name}">
+            </a>
+        `).join('');
+
         modalBody.innerHTML = `
             <div class="book-detail-layout">
                 <div class="book-detail-img">
@@ -157,18 +175,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="book-detail-content">
                     <span class="detail-category">${book.category}</span>
                     <h2 class="detail-title">${book.title}</h2>
-                    
+
                     <div class="detail-meta-list">
                         <div class="detail-meta-item"><strong>저자</strong> ${book.author}</div>
                         <div class="detail-meta-item"><strong>출간일</strong> ${book.date}</div>
                     </div>
-                    
+
                     <p class="detail-summary">“${book.summary}”</p>
                     <p class="detail-desc">${book.description}</p>
+
+                    <div class="purchase-area">
+                        <span class="store-links-desc"><i class="fa-solid fa-cart-shopping"></i> 온라인 서점에서 구매하기</span>
+                        <div class="store-links-row">${storeLinksHtml}</div>
+                    </div>
                 </div>
             </div>
         `;
-        
+
         bookModal.classList.add('active');
         bookModal.setAttribute('aria-hidden', 'false');
         document.body.style.overflow = 'hidden'; // block page scroll

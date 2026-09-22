@@ -3,23 +3,25 @@
    ========================================================================== */
 
 :root {
-    /* Brand Color Palette */
+    /* Brand Color Palette — from the Huddling Books CI:
+       two emperor penguins huddled together, charcoal bodies
+       with a single spark of gold at the crown. */
     --color-primary-gray: #575756;
-    --color-secondary-yellow: #fbbb20;
-    --color-accent-mint: #5cb3b1;
-    --color-accent-mint-dark: #459a98;
-    
+    --color-gold: #fbbb20;        /* CI gold — the spark of warmth */
+    --color-gold-deep: #966700;   /* readable gold for text/icons on light backgrounds */
+
     /* Neutral Colors */
-    --color-bg-light: #f7f9f9;
+    --color-bg-light: #faf8f4;
     --color-bg-white: #ffffff;
     --color-text-dark: #2c2c2c;
     --color-text-medium: #626262;
     --color-text-light: #8e8e8e;
     --color-border-light: rgba(87, 87, 86, 0.1);
-    
+
     /* Layout & Shadows */
     --font-primary: 'Noto Sans KR', sans-serif;
     --font-heading: 'Outfit', 'Montserrat', sans-serif;
+    --font-serif: 'Noto Serif KR', serif;
     --border-radius-sm: 8px;
     --border-radius-md: 16px;
     --border-radius-lg: 24px;
@@ -32,6 +34,15 @@
     --glass-bg: rgba(255, 255, 255, 0.75);
     --glass-border: rgba(255, 255, 255, 0.5);
     --glass-blur: blur(12px);
+}
+
+/* Huddle Brand Mark (two penguins, redrawn from the Huddling Books CI) */
+#huddle-mark {
+    fill: currentColor;
+}
+
+.huddle-mark-gold {
+    stroke: var(--color-gold);
 }
 
 /* Reset & Base Styles */
@@ -106,15 +117,16 @@ img {
 }
 
 .btn-primary {
-    background-color: var(--color-accent-mint);
-    color: var(--color-bg-white);
-    box-shadow: 0 4px 15px rgba(92, 179, 177, 0.3);
+    background-color: var(--color-gold);
+    color: var(--color-text-dark);
+    box-shadow: 0 4px 15px rgba(251, 187, 32, 0.35);
 }
 
 .btn-primary:hover {
-    background-color: var(--color-accent-mint-dark);
+    background-color: var(--color-primary-gray);
+    color: var(--color-bg-white);
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(92, 179, 177, 0.5);
+    box-shadow: 0 6px 20px rgba(87, 87, 86, 0.35);
 }
 
 .btn-secondary {
@@ -174,15 +186,16 @@ img {
     font-size: 0.8rem;
     font-weight: 700;
     letter-spacing: 3px;
-    color: var(--color-accent-mint);
+    color: var(--color-gold-deep);
     margin-bottom: 0.8rem;
 }
 
 .section-tag.light {
-    color: var(--color-secondary-yellow);
+    color: var(--color-gold);
 }
 
 .section-title {
+    font-family: var(--font-serif);
     font-size: 2.2rem;
     font-weight: 700;
     color: var(--color-primary-gray);
@@ -198,7 +211,7 @@ img {
 .title-underline {
     width: 60px;
     height: 3px;
-    background-color: var(--color-secondary-yellow);
+    background-color: var(--color-gold);
     margin: 1rem auto 0;
     border-radius: 2px;
 }
@@ -276,12 +289,12 @@ img {
     left: 0;
     width: 0;
     height: 2px;
-    background-color: var(--color-secondary-yellow);
+    background-color: var(--color-gold);
     transition: width 0.3s ease;
 }
 
 .nav-link:hover {
-    color: var(--color-accent-mint-dark);
+    color: var(--color-gold-deep);
 }
 
 .nav-link:hover::after {
@@ -363,7 +376,7 @@ img {
     font-family: var(--font-heading);
     font-size: 0.9rem;
     font-weight: 700;
-    color: var(--color-accent-mint-dark);
+    color: var(--color-gold-deep);
     letter-spacing: 4px;
     text-transform: uppercase;
     display: block;
@@ -371,6 +384,7 @@ img {
 }
 
 .hero-title {
+    font-family: var(--font-serif);
     font-size: 2.6rem;
     font-weight: 700;
     line-height: 1.3;
@@ -421,6 +435,25 @@ img {
    ========================================================================== */
 .about-section {
     background-color: var(--color-bg-white);
+    position: relative;
+    overflow: hidden;
+}
+
+.about-watermark {
+    position: absolute;
+    top: -40px;
+    right: -60px;
+    width: 380px;
+    height: auto;
+    color: var(--color-primary-gray);
+    opacity: 0.05;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.about-section .section-container {
+    position: relative;
+    z-index: 1;
 }
 
 .about-grid {
@@ -441,8 +474,8 @@ img {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background-color: rgba(92, 179, 177, 0.15);
-    color: var(--color-accent-mint-dark);
+    background-color: rgba(251, 187, 32, 0.15);
+    color: var(--color-gold-deep);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -451,6 +484,7 @@ img {
 }
 
 .about-card h3 {
+    font-family: var(--font-serif);
     font-size: 1.35rem;
     color: var(--color-primary-gray);
     font-weight: 700;
@@ -463,14 +497,14 @@ img {
 
 .highlight-text {
     font-weight: 500;
-    color: var(--color-accent-mint-dark) !important;
-    border-left: 3px solid var(--color-secondary-yellow);
+    color: var(--color-gold-deep) !important;
+    border-left: 3px solid var(--color-gold);
     padding-left: 0.8rem;
 }
 
 /* CEO/People Layout */
 .people-container {
-    background: linear-gradient(135deg, rgba(92, 179, 177, 0.05) 0%, rgba(251, 187, 32, 0.03) 100%);
+    background: linear-gradient(135deg, rgba(87, 87, 86, 0.04) 0%, rgba(251, 187, 32, 0.05) 100%);
     border-radius: var(--border-radius-lg);
     padding: 3.5rem;
     border: 1px solid var(--color-border-light);
@@ -505,7 +539,7 @@ img {
 .people-tag {
     font-size: 0.85rem;
     font-weight: 700;
-    color: var(--color-accent-mint-dark);
+    color: var(--color-gold-deep);
     text-transform: uppercase;
     letter-spacing: 1px;
     display: block;
@@ -513,6 +547,7 @@ img {
 }
 
 .ceo-name {
+    font-family: var(--font-serif);
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--color-primary-gray);
@@ -555,7 +590,7 @@ img {
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    background-color: var(--color-secondary-yellow);
+    background-color: var(--color-gold);
     margin-top: 5px;
     z-index: 1;
 }
@@ -619,8 +654,8 @@ img {
 
 .books-grid {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 1.5rem;
     min-height: 300px;
 }
 
@@ -663,7 +698,7 @@ img {
 .book-card:hover {
     transform: translateY(-8px);
     box-shadow: var(--shadow-premium);
-    border-color: rgba(92, 179, 177, 0.25);
+    border-color: rgba(251, 187, 32, 0.4);
 }
 
 .book-img-wrapper {
@@ -686,12 +721,12 @@ img {
 
 .book-tag {
     position: absolute;
-    top: 1rem;
-    left: 1rem;
+    top: 0.7rem;
+    left: 0.7rem;
     background-color: rgba(87, 87, 86, 0.85);
     color: var(--color-bg-white);
-    padding: 0.3rem 0.8rem;
-    font-size: 0.7rem;
+    padding: 0.25rem 0.65rem;
+    font-size: 0.65rem;
     font-weight: 500;
     border-radius: 12px;
     backdrop-filter: blur(5px);
@@ -699,15 +734,15 @@ img {
 }
 
 .book-info {
-    padding: 1.5rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    gap: 0.5rem;
+    gap: 0.4rem;
 }
 
 .book-title {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 700;
     color: var(--color-primary-gray);
     line-height: 1.4;
@@ -716,17 +751,18 @@ img {
     -webkit-line-clamp: 2;
     -webkit-box-orient: vertical;
     overflow: hidden;
-    height: 2.8rem;
+    height: 2.55rem;
 }
 
 .book-meta {
     display: flex;
-    justify-content: space-between;
-    font-size: 0.8rem;
+    flex-direction: column;
+    gap: 0.15rem;
+    font-size: 0.75rem;
     color: var(--color-text-light);
     margin-top: auto;
     border-top: 1px solid var(--color-border-light);
-    padding-top: 0.8rem;
+    padding-top: 0.7rem;
 }
 
 .book-author {
@@ -836,8 +872,8 @@ img {
 
 .detail-category {
     align-self: flex-start;
-    background-color: rgba(92, 179, 177, 0.15);
-    color: var(--color-accent-mint-dark);
+    background-color: rgba(251, 187, 32, 0.15);
+    color: var(--color-gold-deep);
     padding: 0.4rem 1rem;
     border-radius: 20px;
     font-size: 0.8rem;
@@ -845,6 +881,7 @@ img {
 }
 
 .detail-title {
+    font-family: var(--font-serif);
     font-size: 1.8rem;
     font-weight: 700;
     color: var(--color-primary-gray);
@@ -872,7 +909,7 @@ img {
 .detail-summary {
     font-size: 1.05rem;
     font-weight: 500;
-    color: var(--color-accent-mint-dark);
+    color: var(--color-gold-deep);
     line-height: 1.5;
 }
 
@@ -881,6 +918,61 @@ img {
     font-size: 0.95rem;
     line-height: 1.7;
     white-space: pre-line; /* preserves paragraph breaks */
+}
+
+/* Purchase / Online Bookstore Links */
+.purchase-area {
+    margin-top: 0.5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--color-border-light);
+}
+
+.store-links-desc {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--color-primary-gray);
+    margin-bottom: 0.9rem;
+}
+
+.store-links-desc i {
+    color: var(--color-gold-deep);
+}
+
+.store-links-row {
+    display: flex;
+    gap: 0.8rem;
+    padding: 0.2rem;
+}
+
+.store-link {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+    background-color: var(--color-bg-white);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--border-radius-sm);
+    padding: 0.6rem 0.8rem;
+    box-shadow: var(--shadow-subtle);
+    transition: all 0.3s ease;
+}
+
+.store-link:hover {
+    border-color: var(--color-gold);
+    box-shadow: var(--shadow-medium);
+    transform: translateY(-2px);
+}
+
+.store-link img {
+    max-width: 100%;
+    max-height: 26px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
 }
 
 /* ==========================================================================
@@ -901,7 +993,7 @@ img {
     width: 100%;
     height: 100%;
     opacity: 0.05;
-    background-image: radial-gradient(var(--color-secondary-yellow) 1px, transparent 1px);
+    background-image: radial-gradient(var(--color-gold) 1px, transparent 1px);
     background-size: 24px 24px;
 }
 
@@ -921,6 +1013,7 @@ img {
 }
 
 .submission-info h2 {
+    font-family: var(--font-serif);
     font-size: 2.2rem;
     line-height: 1.3;
     font-weight: 700;
@@ -942,7 +1035,7 @@ img {
 .guide-box h3 {
     font-size: 1.1rem;
     font-weight: 700;
-    color: var(--color-secondary-yellow);
+    color: var(--color-gold);
     margin-bottom: 1rem;
 }
 
@@ -958,7 +1051,7 @@ img {
 }
 
 .guide-box li a {
-    color: var(--color-secondary-yellow);
+    color: var(--color-gold);
     font-weight: 700;
 }
 
@@ -968,6 +1061,7 @@ img {
 }
 
 .submission-form-container h3 {
+    font-family: var(--font-serif);
     font-size: 1.4rem;
     font-weight: 700;
     color: var(--color-primary-gray);
@@ -1017,14 +1111,14 @@ img {
 }
 
 .form-group input:focus, .form-group select:focus, .form-group textarea:focus {
-    border-color: var(--color-accent-mint);
-    box-shadow: 0 0 0 3px rgba(92, 179, 177, 0.15);
+    border-color: var(--color-gold-deep);
+    box-shadow: 0 0 0 3px rgba(251, 187, 32, 0.25);
 }
 
 .form-group-checkbox input {
     width: 16px;
     height: 16px;
-    accent-color: var(--color-accent-mint);
+    accent-color: var(--color-gold-deep);
 }
 
 .form-group-checkbox label {
@@ -1088,6 +1182,7 @@ img {
 }
 
 .contact-info-block h2 {
+    font-family: var(--font-serif);
     font-size: 2.2rem;
     color: var(--color-primary-gray);
     line-height: 1.3;
@@ -1111,8 +1206,8 @@ img {
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: rgba(251, 187, 32, 0.1);
-    color: var(--color-secondary-yellow);
+    background-color: rgba(251, 187, 32, 0.12);
+    color: var(--color-gold-deep);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1121,7 +1216,7 @@ img {
 }
 
 .contact-item:hover .icon-circle {
-    background-color: var(--color-secondary-yellow);
+    background-color: var(--color-gold);
     color: var(--color-bg-white);
     transform: scale(1.1);
 }
@@ -1146,7 +1241,7 @@ img {
 }
 
 .text-area a:hover {
-    color: var(--color-accent-mint);
+    color: var(--color-gold-deep);
 }
 
 /* Map Graphic Placeholder */
@@ -1155,6 +1250,7 @@ img {
 }
 
 .contact-map-block h3 {
+    font-family: var(--font-serif);
     font-size: 1.3rem;
     color: var(--color-primary-gray);
     font-weight: 700;
@@ -1233,7 +1329,7 @@ img {
 
 .destination-mark i {
     font-size: 2.2rem;
-    color: var(--color-accent-mint-dark);
+    color: var(--color-gold-deep);
     z-index: 2;
     filter: drop-shadow(0 2px 5px rgba(0,0,0,0.1));
 }
@@ -1254,7 +1350,7 @@ img {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: rgba(92, 179, 177, 0.4);
+    background-color: rgba(251, 187, 32, 0.4);
     animation: pulse 1.8s infinite ease-out;
     top: -5px;
 }
@@ -1328,11 +1424,12 @@ img {
 }
 
 .alert-icon.success {
-    background-color: rgba(92, 179, 177, 0.15);
-    color: var(--color-accent-mint-dark);
+    background-color: rgba(251, 187, 32, 0.15);
+    color: var(--color-gold-deep);
 }
 
 .alert-modal-box h3 {
+    font-family: var(--font-serif);
     font-size: 1.4rem;
     color: var(--color-primary-gray);
     font-weight: 700;
@@ -1384,8 +1481,16 @@ img {
     color: var(--color-bg-white);
     display: flex;
     align-items: center;
-    gap: 0.5rem;
+    gap: 0.7rem;
+    letter-spacing: 1px;
     margin-bottom: 1rem;
+}
+
+.footer-mark {
+    width: 34px;
+    height: 26px;
+    color: var(--color-bg-white);
+    flex-shrink: 0;
 }
 
 .brand-slogan {
@@ -1413,7 +1518,7 @@ img {
 }
 
 .footer-links a:hover {
-    color: var(--color-secondary-yellow);
+    color: var(--color-gold);
 }
 
 .footer-bottom {
@@ -1441,7 +1546,7 @@ img {
    ========================================================================== */
 @media (max-width: 1024px) {
     .books-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(4, 1fr);
     }
     
     .submission-layout {
@@ -1507,9 +1612,9 @@ img {
     }
     
     .books-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    
+
     /* Modal resizing */
     .book-detail-layout {
         grid-template-columns: 1fr;
@@ -1533,7 +1638,7 @@ img {
 
 @media (max-width: 480px) {
     .books-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
     }
     
     .form-row {
